@@ -1,0 +1,25 @@
+{
+  "name": "stormworks-html",
+  "version": "1.0.0",
+  "description": "A test to see if it is possible to send data to a screen in Stormworks via a server",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js 80"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emilurenius/Stormworks-HTML.git"
+  },
+  "author": "Emil Christiansen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emilurenius/Stormworks-HTML/issues"
+  },
+  "homepage": "https://github.com/Emilurenius/Stormworks-HTML#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
