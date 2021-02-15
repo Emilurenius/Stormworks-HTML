@@ -1,3 +1,5 @@
-drawType=rect, startX=10, startY=10, endX=20, endY=20
-drawType=rect, startX=10, startY=35, endX=20, endY=20
-drawType=rect, startX=30, startY=22, endX=10, endY=20
+mode=changeColor, r=255, g=0, b=255
+mode=rect, startX=10, startY=10, width=20, height=20
+mode=rect, startX=10, startY=35, width=20, height=20
+mode=changeColor, r=255, g=0, b=0
+mode=rect, startX=30, startY=22, width=10, height=20
