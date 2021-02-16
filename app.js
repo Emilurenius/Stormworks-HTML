@@ -29,6 +29,7 @@ app.get("/", (req, res) => {
 
 app.get("/peniselongate", (req, res) => {
     res.sendFile(path.join(__dirname, `/penisElongate/frame${req.query.frame}.txt`))
+    console.log(`Penis frame sent: ${req.query.frame}`)
 })
 
 
