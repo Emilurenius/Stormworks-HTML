@@ -23,7 +23,7 @@ app.use(cors()) // Making sure the browser can request more data after it is loa
 app.use("/test", express.static("test"))
 
 app.get("/", (req, res) => {
-    res.send("Odin er gay")
+    res.send("You are connected")
     console.log("Connected")
 })
 
